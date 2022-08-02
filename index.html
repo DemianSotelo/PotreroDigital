@@ -25,56 +25,57 @@
       </button>
       <nav class="header__nav">
         <ul>
-          <li><a class="nav__link" href="#">Nosotros</a></li>
-          <li><a class="nav__link" href="#">Servicios</a></li>
-          <li><a class="nav__link" href="#">Contacto</a></li>
+          <li><a class="nav__link" href="#us">Nosotros</a></li>
+          <li><a class="nav__link" href="#services">Servicios</a></li>
+          <li><a class="nav__link" href="#contact">Contacto</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section id="banner">
-        <div id="carouselExampleCaptions" class="banner__carousel carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./public/img/pizza.jpg" class="d-block w-100" alt="logo">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Pizzas</h3>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./public/img/hamburguesa.jpg" class="d-block w-100" alt="logo">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Hamburguesas</h3>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./public/img/ensalada.jpg" class="d-block w-100" alt="logo">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Ensaladas</h3>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-         <div class="banner__titulo">
-           <h1>Tentaciones</h1>
+     <section>
+       <section id="banner">
+         <div id="carouselExampleCaptions" class="banner__carousel carousel slide" data-bs-ride="false">
+           <div class="carousel-indicators">
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+           </div>
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img src="./public/img/pizza.jpg" class="d-block w-100" alt="logo">
+               <div class="carousel-caption d-none d-md-block">
+                 <h3>Pizzas</h3>
+                 <p>Some representative placeholder content for the first slide.</p>
+               </div>
+             </div>
+           <div class="carousel-item">
+             <img src="./public/img/hamburguesa.jpg" class="d-block w-100" alt="logo">
+             <div class="carousel-caption d-none d-md-block">
+               <h3>Hamburguesas</h3>
+               <p>Some representative placeholder content for the second slide.</p>
+             </div>
+           </div>
+           <div class="carousel-item">
+             <img src="./public/img/ensalada.jpg" class="d-block w-100" alt="logo">
+             <div class="carousel-caption d-none d-md-block">
+               <h3>Ensaladas</h3>
+               <p>Some representative placeholder content for the third slide.</p>
+             </div>
+           </div>
          </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+       </div>
+       <div class="banner__titulo">
+          <h1>Tentaciones</h1>
+        </div>
       </section>
+    <main>
       <section id="us">
         <h2 class="section__title">Nosotros</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -98,15 +99,15 @@
         <h2 class="section__title">Contacto</h2>
         <div class="contact__item">
           <ion-icon class="contact__image" name="logo-whatsapp"></ion-icon>
-          <span class="contact__title">3412-678492</span>
+          <a class="contact__title" href="https://web.whatsapp.com/" style="text-decoration:none">3412-678492</a>
         </div>
         <div class="contact__item">
           <ion-icon class="contact__image" name="logo-facebook"></ion-icon>
-          <a class="contact__title">Tentaciones Gourmet</a>
+          <a class="contact__title" href="https://www.facebook.com/" style="text-decoration:none">Tentaciones Gourmet</a>
         </div>
         <div class="contact__item">
           <ion-icon class="contact__image" name="logo-instagram"></ion-icon>
-          <a class="contact__title">gourmettentaciones</a>
+          <a class="contact__title" href="https://www.instagram.com/" style="text-decoration:none">gourmettentaciones</a>
         </div>
         <div class="contact__item">
           <ion-icon class="contact__image" name="time"></ion-icon>
@@ -114,12 +115,12 @@
         </div>
         <div class="contact__item">
           <ion-icon class="contact__image" name="mail"></ion-icon>
-          <a class="contact__title">tentacionesgourmet@gmail.com</a>
+          <a class="contact__title" href="https://www.google.com/intl/es-419/gmail/about/" style="text-decoration:none">tentacionesgourmet@gmail.com</a>
         </div>
         </div>
         <div class="contact__item">
           <ion-icon class="contact__image" name="home"></ion-icon>
-          <a class="contact__title" href="https://goo.gl/maps/PkUsbYFwVDfj3MfU6"> Ricardone 1310</a>
+          <a class="contact__title" href="https://goo.gl/maps/PkUsbYFwVDfj3MfU6" style="text-decoration:none">Ricardone 1310</a>
         </div>
       </section>
     </main>
@@ -127,5 +128,6 @@
       <span>@Lorem ipsum dolor sit amet</span>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./public/js/main.js"></script>
   </body>
 </html>
